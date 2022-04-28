@@ -193,7 +193,7 @@ class AirGradient
     void wakeUp();
     void activeMode();
     void passiveMode();
-
+    int readCo();
     void requestRead();
     bool read_PMS(DATA& data);
     bool readUntil(DATA& data, uint16_t timeout = SINGLE_RESPONSE_TIME);
